@@ -1,0 +1,30 @@
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-q74o1d sitelibdir\=./.gem.20250923-68143-q74o1d clean
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-q74o1d sitelibdir\=./.gem.20250923-68143-q74o1d
+compiling ./../../src/constants.c
+compiling ./../../src/ruby_objs.c
+compiling ./../../src/util/rbs_constant_pool.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling unescape.c
+linking shared-object rbs_extension.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-q74o1d sitelibdir\=./.gem.20250923-68143-q74o1d install
+/usr/bin/install -c -m 0755 rbs_extension.bundle ./.gem.20250923-68143-q74o1d
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-q74o1d sitelibdir\=./.gem.20250923-68143-q74o1d clean

@@ -1,0 +1,20 @@
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/erb-5.1.1/ext/erb/escape
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251013-92061-k6inkt sitelibdir\=./.gem.20251013-92061-k6inkt clean
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251013-92061-k6inkt sitelibdir\=./.gem.20251013-92061-k6inkt
+compiling escape.c
+linking shared-object erb/escape.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251013-92061-k6inkt sitelibdir\=./.gem.20251013-92061-k6inkt install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20251013-92061-k6inkt/erb
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251013-92061-k6inkt sitelibdir\=./.gem.20251013-92061-k6inkt clean

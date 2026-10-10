@@ -1,0 +1,33 @@
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for pkg-config for yaml-0.1... not found
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-r1dujz sitelibdir\=./.gem.20250923-68143-r1dujz clean
+cd libyaml && /Applications/Xcode.app/Contents/Developer/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-r1dujz sitelibdir\=./.gem.20250923-68143-r1dujz
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-r1dujz sitelibdir\=./.gem.20250923-68143-r1dujz install
+/usr/bin/install -c -m 0755 psych.bundle ./.gem.20250923-68143-r1dujz
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-r1dujz sitelibdir\=./.gem.20250923-68143-r1dujz clean
+cd libyaml && /Applications/Xcode.app/Contents/Developer/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)

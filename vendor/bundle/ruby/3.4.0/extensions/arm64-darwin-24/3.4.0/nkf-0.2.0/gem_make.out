@@ -1,0 +1,20 @@
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-b6z3bv sitelibdir\=./.gem.20250923-68143-b6z3bv clean
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-b6z3bv sitelibdir\=./.gem.20250923-68143-b6z3bv
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-b6z3bv sitelibdir\=./.gem.20250923-68143-b6z3bv install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250923-68143-b6z3bv
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-b6z3bv sitelibdir\=./.gem.20250923-68143-b6z3bv clean

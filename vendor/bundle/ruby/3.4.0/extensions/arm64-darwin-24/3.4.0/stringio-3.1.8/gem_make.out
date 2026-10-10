@@ -1,0 +1,20 @@
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251114-40244-fwem2s sitelibdir\=./.gem.20251114-40244-fwem2s clean
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251114-40244-fwem2s sitelibdir\=./.gem.20251114-40244-fwem2s
+compiling stringio.c
+linking shared-object stringio.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251114-40244-fwem2s sitelibdir\=./.gem.20251114-40244-fwem2s install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20251114-40244-fwem2s
+
+current directory: /Volumes/Amit/Projects/Apps/project-aeye-scan-app-v2/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.8/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20251114-40244-fwem2s sitelibdir\=./.gem.20251114-40244-fwem2s clean

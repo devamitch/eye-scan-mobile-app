@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "736511215012",
+    "project_id": "iscan-d5465",
+    "storage_bucket": "iscan-d5465.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736511215012:android:3c656d479cf7a0f037ad31",
+        "android_client_info": {
+          "package_name": "com.devamitch.olo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLhFKE4AEiW7QgsauGcz9Ri_ZRGgq5VYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

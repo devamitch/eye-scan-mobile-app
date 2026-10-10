@@ -1,0 +1,21 @@
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-eptxkf sitelibdir\=./.gem.20250923-68143-eptxkf clean
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-eptxkf sitelibdir\=./.gem.20250923-68143-eptxkf
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+ld: warning: search path '/opt/homebrew/Cellar/openssl@3/3.5.1/lib' not found
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-eptxkf sitelibdir\=./.gem.20250923-68143-eptxkf install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20250923-68143-eptxkf/debug
+
+current directory: /Volumes/Amit/Projects/Apps/oLo/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250923-68143-eptxkf sitelibdir\=./.gem.20250923-68143-eptxkf clean

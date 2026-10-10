@@ -1,0 +1,154 @@
+{
+  "expo": {
+    "name": "oLo",
+    "slug": "olo",
+    "description": "Eye Comfort Wellness Companion - Track your eye comfort habits and receive wellness reminders",
+    "owner": "AuraCoremedicalinc",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "olo",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "backgroundColor": "#94ab96"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "oLo uses the camera to help you track your blink patterns and screen time habits for general wellness purposes.",
+          "enableMicrophonePermission": false,
+          "enableFrameProcessors": true,
+          "enableLocation": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "flipper": false
+          },
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "useLegacyPackaging": false,
+            "enableMinifyInReleaseBuilds": true
+          }
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "backgroundColor": "#94ab96"
+        }
+      ],
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.devamitch.eyescanmobileapp",
+      "buildNumber": "1.0.5",
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "backgroundColor": "#94ab96"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "oLo uses the camera to help you track your blink patterns and screen time habits for general wellness purposes. This is not a medical device.",
+        "NSPhotoLibraryUsageDescription": "oLo needs access to save your wellness reports and habit tracking images to your photo library.",
+        "UIBackgroundModes": ["fetch", "processing"],
+        "BGTaskSchedulerPermittedIdentifiers": ["com.devamitch.eyescanmobileapp", "com.devamitch.eyescanmobileapp"],
+        "UIViewControllerBasedStatusBarAppearance": false,
+        "UIRequiresFullScreen": true,
+        "UIStatusBarHidden": true,
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "UIDeviceFamily": [
+          1
+        ]
+      },
+      "entitlements": {
+        "com.apple.developer.usernotifications.time-sensitive": true
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "appleTeamId": "J885D3G52A"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#94ab96"
+      },
+      "package": "com.devamitch.eyescanmobileapp",
+      "versionCode": 5,
+      "permissions": [
+        "CAMERA",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "FOREGROUND_SERVICE",
+        "WAKE_LOCK",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "POST_NOTIFICATIONS",
+        "android.permission.CAMERA"
+      ],
+      "blockedPermissions": ["RECORD_AUDIO", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#94ab96"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "pan",
+      "allowBackup": true,
+      "userInterfaceStyle": "automatic"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "notification": {
+      "icon": "./assets/images/icon.png",
+      "color": "#94ab96",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Eye Wellness Reminder"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/776a3513-33a5-4164-b718-79f06963eebc"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "776a3513-33a5-4164-b718-79f06963eebc"
+      },
+      "appName": "oLo",
+      "appDescription": "Eye Wellness Habit Tracker",
+      "brandColor": "#94ab96",
+      "features": {
+        "habitTracking": true,
+        "wellnessReminders": true,
+        "blinkMonitoring": true,
+        "screenTimeAwareness": true,
+        "personalizedTips": true,
+        "multiLanguage": true,
+        "backgroundTracking": true
+      }
+    },
+    "jsEngine": "hermes",
+    "developmentClient": {
+      "silentLaunch": false
+    }
+  }
+}
